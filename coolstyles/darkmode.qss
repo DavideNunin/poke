@@ -1,0 +1,103 @@
+QPushButton{
+    color: white;
+    font-size: 17px;
+    background-color: #197d5a;
+    border: 2px solid #197d5a;
+    border-radius: 3px;
+}
+    
+QLabel{
+    font-size: 14px;
+    color: black;
+    font-family: "DejaVu Sans Mono"
+}
+
+QLabel#notifica{
+    font-size: 13px;
+}
+
+QLabel#logo_label{
+    font-size: 50px
+}
+
+QLabel#login_label{
+    font-size: 30px
+}
+
+QLabel#nome_settore, QLabel#etichetta_lotto{
+    font-size: 30px
+}
+
+QLabel#nome_att{
+    font-size: 18px
+}
+
+QLabel#nome_lotto{
+    font-size: 22px
+}
+
+QLabel#centralina_param{
+    font-size: 16px;
+    color: white;
+}
+
+QLabel#caratteristica{
+    font-style: bold;
+}
+
+QLabel#descrizione{
+    background-color: #333232;
+}
+
+QLabel#nome_settore, QLabel#nome_lotto, QLabel#etichetta_lotto{
+    color: #030303;
+    font-weight: bold;
+}
+
+QLabel#data_ora, QLabel#data_label{
+    font-size: 16px
+}
+
+QLabel#modifica_username, QLabel#modifica_password {
+    font-size: 18px
+}
+
+QLabel#box{
+    font-size: 20px
+}
+
+QLabel#error_label, QLabel#label_errore_1, QLabel#label_errore_2{
+    color: red
+}
+
+QLabel#info_att{
+    font-size: 14px 
+}
+
+QLabel#titolo_att, QLabel#database_label, QLabel#avvisi, QLabel#cons, QLabel#prod{
+    font-size: 24px
+}
+
+QDialog{
+    background-color: #121212
+}
+
+QTextEdit{
+    background-color: #545454; 
+    color: white;
+}
+
+QLineEdit, QComboBox, QSpinBox, QDoubleSpinBox{
+    background-color: #333232;
+    color: white;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #333232;
+    selection-background-color: #333232;
+    color: white;
+}
+
+QScrollArea#scrollArea{
+    background-color: #333232;
+}
