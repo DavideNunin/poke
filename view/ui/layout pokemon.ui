@@ -63,17 +63,17 @@
          <item row="3" column="1">
           <widget class="QLineEdit" name="status"/>
          </item>
-         <item row="5" column="0">
-          <widget class="QLabel" name="hp_label">
+         <item row="6" column="0">
+          <widget class="QLabel" name="hp_c_label">
            <property name="text">
             <string>hp residui:</string>
            </property>
           </widget>
          </item>
-         <item row="5" column="1">
-          <widget class="QLineEdit" name="hp"/>
+         <item row="6" column="1">
+          <widget class="QLineEdit" name="hp_c"/>
          </item>
-         <item row="10" column="0">
+         <item row="11" column="0">
           <spacer name="horizontalSpacer">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
@@ -86,17 +86,27 @@
            </property>
           </spacer>
          </item>
-         <item row="10" column="1">
-          <widget class="QPushButton" name="pushButton">
+         <item row="11" column="1">
+          <widget class="QPushButton" name="button">
            <property name="text">
             <string>Calcola</string>
            </property>
           </widget>
          </item>
-         <item row="11" column="1">
+         <item row="12" column="1">
           <widget class="QLabel" name="result_label">
            <property name="text">
             <string>il risultato è:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLineEdit" name="hp_max"/>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="hp_max_label">
+           <property name="text">
+            <string>hp_max</string>
            </property>
           </widget>
          </item>
