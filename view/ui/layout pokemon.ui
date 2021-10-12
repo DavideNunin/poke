@@ -34,63 +34,46 @@
           </widget>
          </item>
          <item row="1" column="0">
-          <widget class="QLabel" name="label_2">
+          <widget class="QLabel" name="pokeball_label">
            <property name="text">
             <string>pokeball:</string>
            </property>
           </widget>
          </item>
          <item row="1" column="1">
-          <widget class="QLineEdit" name="lineEdit"/>
+          <widget class="QLineEdit" name="pokeball"/>
          </item>
          <item row="2" column="0">
-          <widget class="QLabel" name="label_3">
+          <widget class="QLabel" name="name_label">
            <property name="text">
             <string>pokemon:</string>
            </property>
           </widget>
          </item>
          <item row="2" column="1">
-          <widget class="QLineEdit" name="lineEdit_2"/>
+          <widget class="QLineEdit" name="pokemon"/>
          </item>
          <item row="3" column="0">
-          <widget class="QLabel" name="label_4">
+          <widget class="QLabel" name="status_label">
            <property name="text">
             <string>stato:</string>
            </property>
           </widget>
          </item>
+         <item row="3" column="1">
+          <widget class="QLineEdit" name="status"/>
+         </item>
          <item row="5" column="0">
-          <widget class="QLabel" name="label_5">
+          <widget class="QLabel" name="hp_label">
            <property name="text">
             <string>hp residui:</string>
            </property>
           </widget>
          </item>
-         <item row="3" column="1">
-          <widget class="QLineEdit" name="lineEdit_3"/>
-         </item>
          <item row="5" column="1">
-          <widget class="QLineEdit" name="lineEdit_4"/>
+          <widget class="QLineEdit" name="hp"/>
          </item>
          <item row="10" column="0">
-          <widget class="QLabel" name="label_6">
-           <property name="text">
-            <string>rate:</string>
-           </property>
-          </widget>
-         </item>
-         <item row="10" column="1">
-          <widget class="QLineEdit" name="lineEdit_5"/>
-         </item>
-         <item row="11" column="1">
-          <widget class="QPushButton" name="pushButton">
-           <property name="text">
-            <string>PushButton</string>
-           </property>
-          </widget>
-         </item>
-         <item row="11" column="0">
           <spacer name="horizontalSpacer">
            <property name="orientation">
             <enum>Qt::Horizontal</enum>
@@ -103,8 +86,15 @@
            </property>
           </spacer>
          </item>
-         <item row="12" column="1">
-          <widget class="QLabel" name="label_7">
+         <item row="10" column="1">
+          <widget class="QPushButton" name="pushButton">
+           <property name="text">
+            <string>Calcola</string>
+           </property>
+          </widget>
+         </item>
+         <item row="11" column="1">
+          <widget class="QLabel" name="result_label">
            <property name="text">
             <string>il risultato è:</string>
            </property>
